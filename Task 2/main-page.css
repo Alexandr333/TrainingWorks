@@ -1,0 +1,59 @@
+body
+{
+    background-color: ghostwhite;
+    margin: 0px;
+    
+}
+
+.header
+{
+    height: 30px;
+    background-color: #C7C3C3;
+    position: relative;
+}
+
+.header--link
+{
+    position: absolute;
+    right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #504B4B;
+}
+
+.header--link:hover
+{
+    color:black;
+}
+
+.navigation-bar--link
+{
+    display: block;
+    color: #504B4B;
+}
+
+.navigation-bar--link:hover
+{    
+    color: black;
+}
+
+.content
+{
+    margin: 0 10%;
+}
+
+.content--header
+{
+    text-align: center;
+}
+
+.content--navigation-bar
+{
+    margin: 50px 0;
+}
+
+.content--paragraph
+{
+    margin: 50px 0;
+}
