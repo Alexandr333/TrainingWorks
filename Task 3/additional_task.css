@@ -1,0 +1,25 @@
+*{
+    font-size: 50px;
+}
+
+.divs-block div
+{
+    clear: both;
+    font-size: 0.9em; 
+}
+
+.font-modify-buttons--button
+{    
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #D3C5C5;
+    margin: 20px;
+    float: left;
+    clear: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+

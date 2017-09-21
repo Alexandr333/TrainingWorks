@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 3</title>
+    <link rel="stylesheet" href="additional_task.css">
+
+</head>
+
+<body>
+    <div class="font-modify-buttons">
+        <div class="font-modify-buttons--button" onclick="modifyFont('+')">
+            +
+        </div>
+        <div class="font-modify-buttons--button" onclick="modifyFont('-')">
+            -
+        </div>
+    </div>
+
+
+    <div class="divs-block">
+        <div>
+            Text Line 1
+            <div>
+                Text Line 2
+                <div>
+                    Text Line 3
+                    <div>
+                        Text Line 4
+                        <div>
+                            Text Line 5
+                            <div>
+                                Text Line 6
+                                <div>
+                                    Text Line 7
+                                    <div>
+                                        Text Line 8
+                                        <div>
+                                            Text Line 9
+                                            <div>
+                                                Text Line 10
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function modifyFont(value) {
+            let oldFontSize = window.getComputedStyle(document.querySelector(".divs-block")).getPropertyValue('font-size');
+            let newfontSize = parseFloat(oldFontSize);
+            let newfontSizeString;
+            switch (value) {
+                case ("+"):
+                    newfontSizeString = newfontSize * 1.1 + "px";
+                    break;
+                case ("-"):
+                    newfontSizeString = newfontSize * 0.9 + "px";
+                    break;
+                default:
+                    newfontSizeString = newfontSize + "px";
+            }
+            document.querySelector(".divs-block").style.fontSize = newfontSizeString;
+        }
+    </script>
+</body>
+
+</html>
