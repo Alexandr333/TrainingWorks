@@ -8,6 +8,7 @@
     font-size: 16px;
     clear: both;  
     overflow:hidden;
+    
 }
 
 
@@ -99,6 +100,8 @@
     outline: 0px;
 }
 
+
+
 .datatime-picker--data-input::-webkit-inner-spin-button, .datatime-picker--data-input::-webkit-calendar-picker-indicator, .datatime-picker--data-input::-webkit-clear-button
 {
     display: none;
@@ -113,6 +116,11 @@
     margin: 10px;
 }
 
+.button-block
+{
+    text-decoration: none;
+}
+
 .button-block--image-success
 {
     width: 50px;
@@ -124,5 +132,10 @@
     text-align: center;
     color: rgb(42, 159, 42);
     font-weight: bold;
+}
+
+.iframe
+{
+    margin: 20px 0px;
 }
 
