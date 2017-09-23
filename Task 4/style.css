@@ -1,0 +1,128 @@
+.event-form
+{
+    width: 330px;
+    background-color: #FAFAFA;
+    padding: 5px;
+    font-family: Roboto, Helvetica Neue,sans-serif;    
+    line-height: 1.4;
+    font-size: 16px;
+    clear: both;  
+    overflow:hidden;
+}
+
+
+.event-form--name
+{    
+    border-bottom: 1px solid #CECBCB;
+    margin: 5px 0 20px;
+}
+
+.item-with-label--label
+{
+    font-size: 12px;
+    color: rgba(0,0,0,0.54);
+    margin: 0;
+}
+
+.item-with-label--text
+{
+    margin: 2px 0;    
+}
+
+/*-----------------*/
+.datatime-picker--td
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*-----------------*/
+.datatime-picker--td.wide
+{
+    width: 75%;
+}
+
+.event-form--datatime-picker, .datatime-picker
+{  
+    border-spacing: 0;
+    width: 100%;
+}
+
+.datatime-picker:after
+{
+    content: '';
+    display: block;
+    height: 10px;
+}
+
+.datatime-picker--label
+{
+    font-size: 12px;
+    color: rgba(0,0,0,0.54);
+    margin: 0;
+}
+
+.datatime-picker--error-message
+{
+    font-size: 12px;
+    color: #CE0000;
+    margin: 0;
+}
+
+.datatime-picker--data-input
+{
+    background-color: transparent;
+    border: 0;
+    font-family: Roboto, Helvetica Neue,sans-serif;    
+    font-size: 16px;
+    padding: 0px;
+    margin-left: -1px;
+    border-bottom: 1px solid #CE0000;
+    width: 90%;
+}
+
+
+
+.datatime-picker--data-input:after
+{
+    content: '';
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid;
+    width: 0;
+    height: 0;
+    border-top-color: rgba(0,0,0,0.34);
+}
+
+.datatime-picker--data-input:focus
+{
+    outline: 0px;
+}
+
+.datatime-picker--data-input::-webkit-inner-spin-button, .datatime-picker--data-input::-webkit-calendar-picker-indicator, .datatime-picker--data-input::-webkit-clear-button
+{
+    display: none;
+    -webkit-appearance: none;
+}
+
+.event-form--button
+{
+    float: right;
+    min-width: 50px;
+    min-height: 50px;
+    margin: 10px;
+}
+
+.button-block--image-success
+{
+    width: 50px;
+}
+
+.button-block--text-success
+{
+    margin: 0px;
+    text-align: center;
+    color: rgb(42, 159, 42);
+    font-weight: bold;
+}
+

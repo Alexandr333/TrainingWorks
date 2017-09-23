@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 4</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <form class="event-form">
+        <div class="event-form--name">
+            <div class="item-with-label">
+                <p class="item-with-label--label">Event name</p>
+                <p class="item-with-label--text">Mel's birthday celebration</p>
+            </div>
+        </div>
+
+        <table class="event-form--datatime-picker">
+            <tbody class="datatime-picker">
+                <tr class="datatime-picker--tr">
+                    <td class="datatime-picker--td" colspan="2">
+                        <p class="datatime-picker--label">From</p>
+                    </td>
+                </tr>
+                <tr class="datatime-picker--tr">
+                    <td class="datatime-picker--td wide">
+                        <input type="date" class="datatime-picker--data-input">
+                    </td>
+                    <td class="datatime-picker--td">
+                        <input type="time" class="datatime-picker--data-input">
+                    </td>
+                </tr>
+                <tr class="datatime-picker--tr">
+                    <td class="datatime-picker--td" colspan="2">
+                        <p class="datatime-picker--error-message">Date occurs in the past</p>
+                    </td>
+                </tr>
+            </tbody>
+            <tbody class="datatime-picker">
+                <tr class="datatime-picker--tr">
+                    <td class="datatime-picker--td" colspan="2">
+                        <p class="datatime-picker--label">To</p>
+                    </td>
+                </tr>
+                <tr class="datatime-picker--tr">
+                    <td class="datatime-picker--td wide">
+                        <input type="date" class="datatime-picker--data-input">
+                    </td>
+                    <td class="datatime-picker--td">
+                        <input type="time" class="datatime-picker--data-input">
+                    </td>
+                </tr>
+                <tr class="datatime-picker--tr">
+                    <td class="datatime-picker--td" colspan="2">
+                        <p class="datatime-picker--error-message">Date occurs in the past</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="event-form--description">
+            <div class="item-with-label">
+                <p class="item-with-label--label">Description</p>
+                <p class="item-with-label--text">Come help celebrate Mel's birthday with dinner, drinks add putt-putt.</p>
+            </div>
+        </div>
+
+        <div class="event-form--button">
+            <div class="button-block">
+                <img class="button-block--image-success" src="img/good.png">
+                <p class="button-block--text-success">Good</p>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
