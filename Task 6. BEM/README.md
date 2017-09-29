@@ -29,13 +29,12 @@
 *Example:*
 
 ```
-<div class="header">
- <img class="header--logo middle" alt="">
- <button class="header--logon-button green">SIGN IN</button>
+<div class="header green">
+ <button class="header--logon-button big">SIGN IN</button>
 </div>
 
-.header--logo.middle {...}
-.header--logon-button.green {...}
+.header.green {...}
+.header--logon-button.big {...}
 ```
 
 
