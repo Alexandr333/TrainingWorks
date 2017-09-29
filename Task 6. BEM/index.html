@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 6</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <form class="event-form">
+        <div class="event-form--event-name">
+            <div class="paragraph">
+                <p class="paragraph--label">Event name</p>
+                <p class="paragraph--text">Mel's birthday celebration</p>
+            </div>
+        </div>
+
+        <div class="event-form--datatime-picker">
+            <div class="datatime-picker">
+                <p class="datatime-picker--label">From</p>
+                <input type="date" class="datatime-picker--input date-input">
+                <input type="time" class="datatime-picker--input time-input">
+                <p class="datatime-picker--error-message">Date occurs in the past</p>
+            </div>
+        </div>
+        <div class="event-form--datatime-picker">
+            <div class="datatime-picker">
+                <p class="datatime-picker--label">To</p>
+                <input type="date" class="datatime-picker--input date-input">
+                <input type="time" class="datatime-picker--input time-input">
+                <p class="datatime-picker--error-message">Date occurs in the past</p>
+            </div>
+        </div>
+
+        <div class="event-form--description">
+            <div class="paragraph">
+                <p class="paragraph--label">Description</p>
+                <p class="paragraph--text">Come help celebrate Mel's birthday with dinner, drinks add putt-putt.</p>
+            </div>
+        </div>
+
+        <div class="event-form--button">
+            <a class="button-block" href="clickedFramePage.html" target="iframe">
+                <img class="button-block--image" src="img/good.png">
+                <p class="button-block--text success">Good</p>
+            </a>
+        </div>
+    </form>
+
+    <iframe class="iframe" name="iframe" src="startFramePage.html"></iframe>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+.event-form
+{
+    min-width: 320px;
+    max-width: 400px;    
+    background-color: #FAFAFA;
+    padding: 5px;  /*Можно ли в блоке задать padding? или же всем элементам margin строчить?*/
+    font-family: Roboto, Helvetica Neue,sans-serif;    
+    line-height: 1.4;
+    font-size: 16px; 
+    overflow: hidden;  
+    clear: both;
+}
+
+.event-form--event-name
+{    
+    border-bottom: 1px solid #CECBCB;
+    margin: 5px 0 20px;
+}
+
+.paragraph--label
+{
+    font-size: 12px;
+    color: rgba(0,0,0,0.54);
+    margin: 0;
+}
+
+.paragraph--text
+{
+    margin: 2px 0;    
+}
+
+/*-----------------*/
+
+.event-form--datatime-picker
+{  
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+.datatime-picker--label
+{
+    font-size: 12px;
+    color: rgba(0,0,0,0.54);
+    margin: 0;
+}
+
+.datatime-picker--error-message
+{
+    font-size: 12px;
+    color: #CE0000;
+    margin: 0;
+}
+
+.datatime-picker--input
+{
+    display: inline-flex;   
+    background-color: transparent;
+    border: 0;
+    font-family: Roboto, Helvetica Neue,sans-serif;    
+    font-size: 16px;
+    padding: 0px;
+    margin-left: -1px;
+    border-bottom: 1px solid #CE0000;
+}
+
+.datatime-picker--input.date-input
+{
+    width: 70%;
+}
+
+.datatime-picker--input.time-input
+{
+    width: 20%;
+    float: right;    
+}
+
+.datatime-picker--input:after
+{
+    content: '';
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid;
+    width: 0;
+    height: 0;
+    border-top-color: rgba(0,0,0,0.34);
+}
+
+.datatime-picker--input:focus
+{
+    outline: 0px;
+}
+
+.datatime-picker--input::-webkit-inner-spin-button, .datatime-picker--input::-webkit-calendar-picker-indicator, .datatime-picker--input::-webkit-clear-button
+{
+    display: none;
+    -webkit-appearance: none;
+}
+
+.event-form--button
+{    
+    margin: 10px;
+    margin-left: auto;    
+    float: right;
+}
+
+.button-block
+{
+    text-decoration: none;
+}
+
+.button-block--image
+{
+    width: 50px;
+}
+
+.button-block--text
+{
+    margin: 0px;
+    text-align: center;    
+    font-weight: bold;
+}
+
+.button-block--text.success
+{
+    color: rgb(42, 159, 42);
+}
+
+.iframe
+{
+    margin: 20px 0px;
+}
+
